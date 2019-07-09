@@ -11,35 +11,35 @@
                         </h2>
                         <div class="row mt32 mb32">
                             <div class="col-auto mw-100 mb-2">
-                                <strong>Point Of Sale:</strong>
+                                <strong>Punto de Venta:</strong>
                                 <p t-field="doc.config_id"/>
                             </div>
                             <div class="col-auto mw-100 mb-2">
-                                <strong>Responsible Person:</strong>
+                                <strong>Responsable:</strong>
                                 <p t-field="doc.user_id"/>
                             </div>
                             <div class="col-auto mw-100 mb-2">
-                                <strong>Opening Date:</strong>
+                                <strong>Fecha Apertura:</strong>
                                 <p t-field="doc.start_at"/>
                             </div>
                             <div class="col-auto mw-100 mb-2">
-                                <strong>Closing Date:</strong>
+                                <strong>Fecha Cierre:</strong>
                                 <p t-field="doc.stop_at"/>
                             </div>
                         </div>
 
-                        <h2>Summary By Payment Methods</h2>
+                        <h2>Resumen por Metodos de pago</h2>
                         <table class="table table-condensed table-striped">
                             <thead>
                                 <tr>
-                                    <th>Reference</th>
-                                    <th class="text-right">Journal</th>
-                                    <th class="text-right">Starting Balance</th>
-                                    <th class="text-right">Ending Balance</th>
-                                    <th class="text-right">Transactions Subtotal</th>
-                                    <th class="text-right">Difference</th>
-                                    <th class="text-right">Currency</th>
-                                    <th class="text-right">Status</th>
+                                    <th>Referencia</th>
+                                    <th class="text-right">Diario</th>
+                                    <th class="text-right">Balance Inicial</th>
+                                    <th class="text-right">Balance Final</th>
+                                    <th class="text-right">Subtotal Transacciones</th>
+                                    <th class="text-right">Diferencia</th>
+                                    <th class="text-right">Moneda</th>
+                                    <th class="text-right">Estado</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -74,15 +74,15 @@
                             </tbody>
                         </table>
 
-                        <h2>Summary By Statements</h2>
+                        <h2>Resumen por declaraciones</h2>
                         <table class="table table-condensed table-striped">
                             <thead>
                                 <tr>
-                                    <th>Order Reference</th>
-                                    <th>Order Date</th>
-                                    <th>Customer</th>
-                                    <th>Label</th>
-                                    <th class="text-right">Amount</th>
+                                    <th>Orden REF</th>
+                                    <th>Fecha Orden</th>
+                                    <th>Vendedor</th>
+                                    <th>Etiqueta</th>
+                                    <th class="text-right">Cantidad</th>
                                 </tr>
                             </thead>
 
@@ -182,10 +182,10 @@
                         <table class="table-condensed" width="100%">
                             <tr>
                                 <td width="50%" class="text-center">
-                                    <strong>Salesperson</strong>
+                                    <strong>Texto Prueba 1</strong>
                                 </td>
                                 <td width="50%" class="text-center">
-                                    <strong>Manager</strong>
+                                    <strong>Texto Prueba 2</strong>
                                 </td>
                             </tr>
                         </table>
