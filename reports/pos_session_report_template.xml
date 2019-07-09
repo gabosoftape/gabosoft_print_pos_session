@@ -92,7 +92,7 @@
                                         <span t-set="total_cash" t-value="0"/>
                                         <tr>
                                             <td>
-                                                <b t-field="statement.name"></b>
+                                                <b t-field="statement.journal_id"></b>
                                             </td>
                                             <td colspan='4'></td>
                                         </tr>
